@@ -1,0 +1,87 @@
+.App {
+ margin: 0;
+ padding: 0px;
+ background-color: black;
+}
+
+.imageCover {
+ width: 100%;
+ text-align: center;
+ height: 100vh !important;
+}
+
+.frontpagelogo {
+  width: 85%;  
+  height: 99.4vh;  
+}
+
+@media only screen and (max-width: 1000px) {
+  .frontpagelogo {
+    width: 100%;  
+    height: 99.4vh;  
+  }
+}
+
+.buttonstarwars {
+  position: relative;
+  top: -40px;
+}
+
+.buttonwars {
+  transition: all .15s ease-in-out !important;
+}
+
+.buttonwars:hover {
+  transform: scale(1.1);
+  
+}
+
+.gender_filter {
+  float: right !important;
+  width: 100%;
+  max-width: 805px;
+}
+
+
+.release_date {
+  float: right;
+}
+
+.MuiPaper-root {
+  padding-top: 0px !important;
+  background-color: black !important;
+  border: 1px solid yellow;
+}
+
+.listMenu:hover {
+  color: orange;
+}
+
+.links {
+  text-decoration: none !important;
+}
+
+#buttonHeader:hover {
+  color: orange;
+}
+
+.buttongender {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.buttongenderr:hover {
+  transform: scale(1.02);
+  
+}
+
+.guardian {
+  position: fixed !important;
+  top: 0px;
+  z-index: 10;
+}
+
+.mainTable {
+  transition: all 0.3s ease-in-out !important;
+}
+
